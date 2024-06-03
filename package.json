@@ -1,7 +1,6 @@
 {
-  "homepage": "https://tejasmandloi14.github.io/News-Daily/",
+  "homepage": "https://tejasmandloi14.github.io/NewsDaily/",
   "name": "newsapp",
-  "homepage": "http://tejasmandloi14.github.io/NewsApp_React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
