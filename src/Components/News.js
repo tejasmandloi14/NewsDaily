@@ -210,7 +210,7 @@ const News = (props) => {
             </button>
             {loading && <Spinner />}
             <div className='row'>
-                {articles.map((element) => {
+                {articles?articles.map((element) => {
                     return (
                         <div className='col-md-4' key={element.url}>
                             <NewsItem 
@@ -222,7 +222,7 @@ const News = (props) => {
                             />
                         </div>
                     );
-                })}
+                }):null}
             </div>
             <div className='d-flex justify-content-between my-4 hehe'>
                 <button disabled={page <= 1} type="button" className="btn btn-dark" onClick={handlePrevClick}>&larr; Previous</button>
