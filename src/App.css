@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.hehe1{
+  /* position: absolute; */
+  right: 18px;
+  top: 30px;
+}
+.hehe{
+  padding-bottom: 10px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .container {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.dark-mode .btn {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dark-mode .btn:hover {
+  background-color: #444444;
+}
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode .card .card-title,
+body.dark-mode .card .card-text {
+  color: #ffffff;
+}
+
+body.dark-mode .card .btn {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+body.dark-mode .card .btn:hover {
+  background-color: #444444;
+}
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-color: #444444; /* Change border color in dark mode */
+}
+
+body.dark-mode .card .card-title,
+body.dark-mode .card .card-text {
+  color: #ffffff;
+}
+
+body.dark-mode .card .btn {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+body.dark-mode .card .btn:hover {
+  background-color: #444444;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
